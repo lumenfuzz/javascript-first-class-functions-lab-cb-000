@@ -6,6 +6,6 @@ function createMultiplier(multiplierValue) {
   return (n) => {return multiplierValue * n}
 }
 
-function multiplier() {
-
+function multiplier(multiplierValue, value) {
+  
 }

@@ -15,3 +15,5 @@ var doubler = createMultiplier(2)
 var tripler = createMultiplier(3)
 
 var doublerWithBind = createMultiplier(2).bind()
+
+var triplerWithBind = createMultiplier(3).bind()

@@ -6,14 +6,14 @@ function createMultiplier(multiplierValue) {
   return (n) => {return multiplierValue * n}
 }
 
-function multiplier(multiplierValue, value) {
-  return multiplierValue * value
-}
-
 var doubler = createMultiplier(2)
 
 var tripler = createMultiplier(3)
 
-var doublerWithBind = createMultiplier(2).bind()
+function multiplier(multiplierValue, value) {
+  return multiplierValue * value
+}
+
+var doublerWithBind = multiplier.bind(null, 2)
 
 var triplerWithBind = createMultiplier(3).bind()

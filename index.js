@@ -10,4 +10,6 @@ function multiplier(multiplierValue, value) {
   return multiplierValue * value
 }
 
-var doubler = createMultiplier(multiplier)
+var doubler = 1
+
+var tripler = 2
